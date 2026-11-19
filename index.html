@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad — e-Parking | Code System</title>
+  <meta name="description" content="Política de Privacidad oficial de la aplicación móvil e-Parking, desarrollada por Code System." />
+  <meta name="robots" content="index, follow" />
+  <style>
+    :root {
+      --bg: #f8f7f4;
+      --paper: #ffffff;
+      --ink: #1c1917;
+      --ink-secondary: #44403c;
+      --muted: #78716c;
+      --border: #e7e5e4;
+      --accent: #1e3a8a;
+      --surface-soft: #f5f5f4;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 32px 16px 64px;
+      background-color: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--paper);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 48px 56px;
+    }
+
+    .doc-header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 28px;
+      margin-bottom: 32px;
+    }
+
+    .kicker {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 10px 0;
+    }
+
+    h1 {
+      margin: 0 0 12px 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(28px, 4vw, 38px);
+      line-height: 1.2;
+      font-weight: 700;
+      color: var(--ink);
+    }
+
+    .subtitle {
+      margin: 0;
+      font-size: 16px;
+      color: var(--ink-secondary);
+    }
+
+    .summary-card {
+      background: var(--surface-soft);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin-bottom: 32px;
+    }
+
+    .summary-title {
+      margin: 0 0 14px 0;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--ink);
+    }
+
+    .meta-grid {
+      margin: 12px 0 18px 0;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .meta-row {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .meta-row:last-child {
+      border-bottom: none;
+    }
+
+    .meta-row dt {
+      padding: 10px 14px;
+      background: var(--surface-soft);
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--ink);
+    }
+
+    .meta-row dd {
+      margin: 0;
+      padding: 10px 14px;
+      font-size: 14px;
+      color: var(--ink-secondary);
+      word-break: break-word;
+    }
+
+    .toc {
+      margin-bottom: 36px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .toc h2 {
+      font-family: inherit;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin: 0 0 12px 0;
+    }
+
+    .toc ol {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 6px 20px;
+    }
+
+    .toc a {
+      color: var(--ink-secondary);
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .toc a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    .policy-section {
+      padding: 24px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .policy-section:last-of-type {
+      border-bottom: none;
+    }
+
+    .policy-section h2 {
+      margin: 0 0 14px 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+      line-height: 1.3;
+      color: var(--ink);
+    }
+
+    .policy-section p {
+      margin: 0 0 14px 0;
+      font-size: 15.5px;
+      color: var(--ink-secondary);
+    }
+
+    .policy-section ul {
+      margin: 10px 0 16px 0;
+      padding-left: 22px;
+    }
+
+    .policy-section li {
+      margin-bottom: 10px;
+      font-size: 15px;
+      color: var(--ink-secondary);
+    }
+
+    .policy-section li strong {
+      color: var(--ink);
+    }
+
+    .note-box {
+      margin-top: 14px;
+      padding: 14px 16px;
+      background: var(--surface-soft);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 14.5px !important;
+      color: var(--ink-secondary);
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .ext-link {
+      font-size: 13.5px;
+      margin-left: 6px;
+    }
+
+    .doc-footer {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 680px) {
+      body {
+        padding: 12px;
+      }
+      .container {
+        padding: 28px 20px;
+      }
+      .meta-row {
+        grid-template-columns: 1fr;
+      }
+      .meta-row dt {
+        border-bottom: 1px solid var(--border);
+      }
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+        padding: 0;
+      }
+      .container {
+        border: none;
+        padding: 0;
+        max-width: 100%;
+      }
+      .toc {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="doc-header">
+      <p class="kicker">Code System · Documento Legal de Privacidad</p>
+      <h1>Política de Privacidad de e-Parking</h1>
+      <p class="subtitle">Información transparente sobre el tratamiento de datos personales y cumplimiento de requisitos de Google Play Console.</p>
+    </header>
+
+    <section class="summary-card" aria-label="Datos específicos de la aplicación">
+      <h2 class="summary-title">Datos específicos de la aplicación</h2>
+      <dl class="meta-grid" style="margin-bottom:0;background:#ffffff;">
+        <div class="meta-row"><dt>Nombre de la aplicación</dt><dd>e-Parking</dd></div>
+        <div class="meta-row"><dt>Tipo de aplicación</dt><dd>Sistema de control de estacionamientos</dd></div>
+        <div class="meta-row"><dt>Datos recopilados</dt><dd>[LISTAR]</dd></div>
+        <div class="meta-row"><dt>Permisos utilizados</dt><dd>[LISTAR]</dd></div>
+        <div class="meta-row"><dt>Fecha de entrada en vigor</dt><dd>19-11-2026</dd></div>
+      </dl>
+    </section>
+
+    <nav class="toc" aria-label="Índice de secciones">
+      <h2>Contenido del documento</h2>
+      <ol>
+          <li><a href="#informacion-empresa">1. Información de la empresa</a></li>
+          <li><a href="#introduccion">2. Introducción</a></li>
+          <li><a href="#datos-recopilados">3. Datos recopilados</a></li>
+          <li><a href="#finalidad-tratamiento">4. Finalidad del tratamiento de los datos</a></li>
+          <li><a href="#permisos-dispositivo">5. Permisos del dispositivo</a></li>
+          <li><a href="#comparticion-informacion">6. Compartición de información</a></li>
+          <li><a href="#seguridad-informacion">7. Seguridad de la información</a></li>
+          <li><a href="#conservacion-datos">8. Conservación de los datos</a></li>
+          <li><a href="#derechos-usuarios">9. Derechos de los usuarios</a></li>
+          <li><a href="#servicios-terceros">10. Servicios de terceros</a></li>
+          <li><a href="#privacidad-menores">11. Privacidad de menores</a></li>
+          <li><a href="#cambios-politica">12. Cambios a esta política</a></li>
+          <li><a href="#contacto">13. Contacto</a></li>
+          <li><a href="#clausula-final">14. Cláusula final</a></li>
+      </ol>
+    </nav>
+
+      <section id="informacion-empresa" class="policy-section">
+        <h2>1. Información de la empresa</h2>
+        <p>La presente Política de Privacidad regula el tratamiento de los datos personales recabados a través de la aplicación móvil e-Parking (en adelante, la &quot;Aplicación&quot;), desarrollada y operada por Code System, en calidad de responsable del tratamiento de los datos.</p>
+<dl class="meta-grid"><div class="meta-row"><dt>Nombre de la empresa</dt><dd>Code System</dd></div>
+<div class="meta-row"><dt>Correo electrónico de contacto</dt><dd><a href="mailto:fcojdiazsilva@gmail.com" target="_blank" rel="noopener noreferrer">fcojdiazsilva@gmail.com</a></dd></div>
+<div class="meta-row"><dt>Sitio web oficial</dt><dd>[]</dd></div>
+<div class="meta-row"><dt>Nombre de la aplicación</dt><dd>e-Parking</dd></div>
+<div class="meta-row"><dt>Descripción de la aplicación</dt><dd>Sistema de control de estacionamientos</dd></div>
+<div class="meta-row"><dt>Fecha de entrada en vigor</dt><dd>19-11-2026</dd></div></dl>
+      </section>
+
+      <section id="introduccion" class="policy-section">
+        <h2>2. Introducción</h2>
+        <p>En Code System, la privacidad, confidencialidad y protección de la información personal de nuestros usuarios constituyen un compromiso prioritario. Este documento explica de manera clara, transparente y accesible qué datos podemos recopilar al utilizar e-Parking (Sistema de control de estacionamientos), con qué finalidades los tratamos, bajo qué medidas de seguridad los resguardamos y qué derechos asisten a cada usuario.</p>
+<p>Esta Política de Privacidad ha sido redactada conforme a los principios de licitud, lealtad, transparencia, minimización de datos y los requisitos vigentes de Google Play Console, con el propósito de brindar certeza jurídica a los usuarios finales antes, durante y después del uso de la Aplicación.</p>
+      </section>
+
+      <section id="datos-recopilados" class="policy-section">
+        <h2>3. Datos recopilados</h2>
+        <p>Dependiendo de las funcionalidades habilitadas en e-Parking y de la interacción directa del usuario, Code System podrá recopilar las siguientes categorías de información personal y técnica:</p>
+<ul><li><strong>Datos de identificación:</strong> Nombre, apellidos, nombre de usuario o identificadores internos de cuenta necesarios para reconocer al usuario dentro de la plataforma.</li>
+<li><strong>Dirección de correo electrónico:</strong> Utilizada para el registro, autenticación, recuperación de acceso, comunicaciones operativas y atención de solicitudes de soporte.</li>
+<li><strong>Dispositivo y sistema operativo:</strong> Modelo de equipo, fabricante, versión del sistema operativo, idioma del dispositivo, identificadores técnicos de instancia y registros de diagnóstico de errores.</li>
+<li><strong>Dirección IP:</strong> Dirección de protocolo de Internet registrada automáticamente durante las solicitudes de red para garantizar la seguridad, prevenir abusos y habilitar la conectividad.</li>
+<li><strong>Datos de ubicación (si la aplicación los utiliza):</strong> Ubicación aproximada o precisa (GPS / red) recopilada únicamente cuando la función solicitada por el usuario lo requiere y previa autorización expresa.</li>
+<li><strong>Fotografías, archivos o documentos (si la aplicación los utiliza):</strong> Imágenes, documentos o archivos adjuntos que el usuario selecciona o captura voluntariamente dentro de los flujos de trabajo de la aplicación.</li>
+<li><strong>Información proporcionada voluntariamente por el usuario:</strong> Consultas enviadas a soporte técnico, formularios de contacto, preferencias configuradas y cualquier otro dato ingresado libremente por el usuario.</li>
+<li><strong>Detalle específico de datos en la aplicación:</strong> [LISTAR]</li></ul>
+<p class="note-box">La aplicación limita la recolección de datos a lo estrictamente necesario para operar de forma segura y ofrecer las funcionalidades solicitadas por el usuario.</p>
+      </section>
+
+      <section id="finalidad-tratamiento" class="policy-section">
+        <h2>4. Finalidad del tratamiento de los datos</h2>
+        <p>Los datos personales y técnicos recopilados por Code System son tratados exclusivamente para las siguientes finalidades legítimas y específicas:</p>
+<ul><li><strong>Operación y funcionamiento de la aplicación:</strong> Permitir la ejecución adecuada de las herramientas, módulos y servicios principales de e-Parking.</li>
+<li><strong>Autenticación y gestión de cuentas:</strong> Validar la identidad del usuario, administrar sesiones activas, gestionar perfiles y proteger el acceso contra usos indebidos.</li>
+<li><strong>Comunicación con los usuarios:</strong> Enviar avisos técnicos esenciales, confirmaciones de actividad, notificaciones solicitadas y respuestas a consultas o solicitudes de privacidad.</li>
+<li><strong>Mejora de servicios y experiencia de usuario:</strong> Analizar el rendimiento técnico, diagnosticar fallos de estabilidad y optimizar la usabilidad e interfaz de la Aplicación.</li>
+<li><strong>Soporte técnico:</strong> Atender incidencias reportadas por el usuario, verificar errores y brindar asistencia personalizada.</li>
+<li><strong>Cumplimiento legal:</strong> Atender obligaciones normativas vigentes, requerimientos válidos de autoridades competentes y prevenir fraudes o actividades ilícitas.</li></ul>
+      </section>
+
+      <section id="permisos-dispositivo" class="policy-section">
+        <h2>5. Permisos del dispositivo</h2>
+        <p>Para ofrecer determinadas funciones, e-Parking puede solicitar acceso a ciertos permisos del sistema operativo del dispositivo móvil. Code System declara expresamente que dichos permisos únicamente se solicitarán cuando sean estrictamente necesarios para el funcionamiento de la función invocada por el usuario, y nunca se utilizarán de forma oculta o ajena a su propósito.</p>
+<ul><li><strong>Cámara:</strong> Permitir al usuario capturar fotografías, escanear documentos o códigos dentro de las funciones que lo requieran.</li>
+<li><strong>Ubicación:</strong> Habilitar funcionalidades basadas en geolocalización, mapas o registro contextual cuando el usuario autorice el acceso.</li>
+<li><strong>Almacenamiento / Archivos multimedia:</strong> Leer o guardar fotografías, documentos y archivos generados o adjuntados directamente por el usuario.</li>
+<li><strong>Internet y estado de red:</strong> Conectar la aplicación con los servidores de Code System y servicios en la nube para sincronizar datos y operar correctamente.</li>
+<li><strong>Notificaciones:</strong> Enviar avisos operativos, alertas relevantes de la cuenta o recordatorios configurados por el usuario.</li>
+<li><strong>Resumen de permisos utilizados en esta aplicación:</strong> [LISTAR]</li></ul>
+<p class="note-box">El usuario puede conceder, restringir o revocar estos permisos en cualquier momento desde los ajustes de privacidad de su dispositivo Android o iOS. La denegación de un permiso opcional solo limitará la función asociada sin impedir el uso general cuando no sea indispensable.</p>
+      </section>
+
+      <section id="comparticion-informacion" class="policy-section">
+        <h2>6. Compartición de información</h2>
+        <p>Code System no vende, alquila, comercializa ni cede datos personales de sus usuarios a terceros con fines publicitarios o comerciales propios de terceros.</p>
+<p>La información recopilada únicamente podrá ser compartida de forma controlada y limitada en los siguientes supuestos:</p>
+<ul><li><strong>Proveedores tecnológicos y servicios en la nube:</strong> Empresas de alojamiento, infraestructura en la nube, autenticación, mensajería o analítica técnica que actúan como encargados del tratamiento bajo estrictos compromisos de confidencialidad y seguridad.</li>
+<li><strong>Requerimiento legal o autoridad competente:</strong> Cuando exista una obligación legal expresa, orden judicial, citación o requerimiento formal emitido por una autoridad administrativa o judicial competente.</li>
+<li><strong>Protección de derechos y seguridad:</strong> Cuando sea necesario para investigar, prevenir o actuar frente a fraudes, incidentes de seguridad, vulneraciones técnicas o defensa de derechos legales de los usuarios o de la empresa.</li></ul>
+      </section>
+
+      <section id="seguridad-informacion" class="policy-section">
+        <h2>7. Seguridad de la información</h2>
+        <p>Code System implementa medidas técnicas, administrativas y organizativas razonables y acordes con los estándares de la industria para salvaguardar los datos almacenados y en tránsito frente a pérdidas, alteraciones, divulgación o accesos no autorizados.</p>
+<p>Entre estas medidas se incluyen el cifrado de comunicaciones mediante protocolos seguros (HTTPS/TLS), controles de acceso basados en privilegios mínimos, autenticación segura y monitoreo preventivo de vulnerabilidades. No obstante, ningún sistema digital conectado a Internet es absolutamente invulnerable, por lo que recomendamos al usuario resguardar sus credenciales de acceso y mantener actualizado su dispositivo.</p>
+      </section>
+
+      <section id="conservacion-datos" class="policy-section">
+        <h2>8. Conservación de los datos</h2>
+        <p>Code System conservará los datos personales mientras la cuenta del usuario permanezca activa o durante el tiempo estrictamente necesario para cumplir con las finalidades descritas, así como por los plazos exigidos por la legislación aplicable.</p>
+<p>Una vez concluida la finalidad que motivó su recopilación, o cuando el usuario solicite válidamente la eliminación de su cuenta o de sus datos personales, la información será suprimida de forma segura o debidamente anonimizada de nuestros sistemas activos y copias de respaldo dentro de un plazo razonable, salvo que exista un deber legal de conservación por un período adicional.</p>
+      </section>
+
+      <section id="derechos-usuarios" class="policy-section">
+        <h2>9. Derechos de los usuarios</h2>
+        <p>Como titular de los datos personales, el usuario tiene derecho a ejercer en todo momento las siguientes facultades respecto a su información:</p>
+<ul><li><strong>Derecho de Acceso:</strong> Conocer qué datos personales suyos están siendo tratados por Code System y obtener una copia de los mismos.</li>
+<li><strong>Derecho de Rectificación:</strong> Solicitar la corrección o actualización de datos inexactos, incompletos o desactualizados.</li>
+<li><strong>Derecho de Eliminación (Supresión):</strong> Pedir el borrado definitivo de su cuenta y de sus datos personales cuando ya no sean necesarios o cuando decida dejar de utilizar la Aplicación.</li>
+<li><strong>Derecho de Oposición:</strong> Oponerse al tratamiento de sus datos para finalidades específicas o revocar el consentimiento otorgado previamente.</li>
+<li><strong>Solicitud de información sobre el tratamiento:</strong> Requerir aclaraciones detalladas sobre el origen, finalidad, transferencias y medidas de protección aplicadas a sus datos.</li></ul>
+<p class="note-box">Para ejercer cualquiera de estos derechos, el usuario puede enviar una solicitud directa al correo electrónico fcojdiazsilva@gmail.com indicando su nombre, la aplicación utilizada (e-Parking) y el derecho que desea ejercer. Atenderemos la solicitud dentro de los plazos legales aplicables.</p>
+      </section>
+
+      <section id="servicios-terceros" class="policy-section">
+        <h2>10. Servicios de terceros</h2>
+        <p>e-Parking puede integrar herramientas, bibliotecas o servicios tecnológicos provistos por terceros para garantizar su operatividad, seguridad y rendimiento. Dichos proveedores pueden recopilar información técnica o identificadores conforme a sus propias condiciones:</p>
+<ul><li><strong>Google Play Services:</strong> Infraestructura esencial de distribución, verificación de integridad, actualización de componentes y servicios base de Android. <a class="ext-link" href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Ver política oficial</a></li>
+<li><strong>Firebase (Google):</strong> Servicios en la nube para autenticación, base de datos, mensajería push, almacenamiento seguro y diagnóstico de estabilidad (Crashlytics). <a class="ext-link" href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Ver política oficial</a></li>
+<li><strong>Google Analytics / Firebase Analytics:</strong> Medición agregada de uso, rendimiento de pantallas y métricas técnicas para optimizar la experiencia de usuario. <a class="ext-link" href="https://marketingplatform.google.com/about/analytics/terms/es/" target="_blank" rel="noopener noreferrer">Ver política oficial</a></li>
+<li><strong>Servicios de Mapas (Google Maps u otros integrados):</strong> Visualización cartográfica, geocodificación y cálculo de rutas en caso de que la aplicación incorpore funciones de mapa. <a class="ext-link" href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Ver política oficial</a></li></ul>
+<p class="note-box">Advertencia legal: Cada uno de los servicios de terceros mencionados posee sus propias políticas de privacidad y términos de tratamiento de datos, independientes de Code System. Recomendamos al usuario consultar directamente las políticas oficiales de dichos proveedores para conocer en detalle sus prácticas.</p>
+      </section>
+
+      <section id="privacidad-menores" class="policy-section">
+        <h2>11. Privacidad de menores</h2>
+        <p>La aplicación e-Parking no está dirigida a menores de edad sin la autorización y supervisión directa de sus padres, madres o tutores legales. Code System no recopila intencionalmente datos personales de menores sin el debido consentimiento verificable de quienes ejerzan su representación legal.</p>
+<p>Si un padre, madre o tutor legal advierte que un menor ha proporcionado información personal sin su autorización, puede escribir de inmediato a fcojdiazsilva@gmail.com para que procedamos a verificar el caso y eliminar dicha información a la mayor brevedad.</p>
+      </section>
+
+      <section id="cambios-politica" class="policy-section">
+        <h2>12. Cambios a esta política</h2>
+        <p>Code System se reserva el derecho de actualizar o modificar la presente Política de Privacidad cuando resulte necesario para reflejar cambios en la Aplicación, nuevas funcionalidades, ajustes técnicos o actualizaciones regulatorias y de Google Play Console.</p>
+<p>Cualquier modificación sustancial será publicada en esta misma página pública junto con la actualización de la &quot;Fecha de entrada en vigor&quot; y, cuando corresponda por su relevancia, podrá ser notificada dentro de la Aplicación o mediante correo electrónico.</p>
+      </section>
+
+      <section id="contacto" class="policy-section">
+        <h2>13. Contacto</h2>
+        <p>Si tiene preguntas, comentarios, inquietudes sobre privacidad o desea presentar una solicitud relacionada con el tratamiento de sus datos personales, puede comunicarse con Code System a través de nuestros canales oficiales:</p>
+<dl class="meta-grid"><div class="meta-row"><dt>Responsable</dt><dd>Code System</dd></div>
+<div class="meta-row"><dt>Correo electrónico de privacidad</dt><dd><a href="mailto:fcojdiazsilva@gmail.com" target="_blank" rel="noopener noreferrer">fcojdiazsilva@gmail.com</a></dd></div>
+<div class="meta-row"><dt>Sitio web oficial</dt><dd>[]</dd></div></dl>
+      </section>
+
+      <section id="clausula-final" class="policy-section">
+        <h2>14. Cláusula final</h2>
+        <p>Al descargar, instalar, acceder o utilizar la aplicación móvil e-Parking, el usuario declara haber leído, comprendido y aceptado los términos establecidos en la presente Política de Privacidad.</p>
+<p>En caso de no estar de acuerdo con alguna de las disposiciones aquí descritas, el usuario deberá abstenerse de utilizar la Aplicación y podrá solicitar la eliminación de los datos que hubiese proporcionado escribiendo a fcojdiazsilva@gmail.com.</p>
+      </section>
+
+    <footer class="doc-footer">
+      <span>© 2026 Code System. Todos los derechos reservados.</span>
+      <span>Contacto de privacidad: fcojdiazsilva@gmail.com · Sitio web: []</span>
+    </footer>
+  </main>
+</body>
+</html>
